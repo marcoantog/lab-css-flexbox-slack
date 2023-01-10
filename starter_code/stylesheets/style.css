@@ -8,3 +8,388 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-around;
+}
+
+#slack {
+    width: 40%;
+}
+
+header {
+    background-color: #540B51;
+}
+
+.menu-button {
+    background-color: #540B51;
+    border: hidden;
+}
+
+.button-container {
+    display: flex;
+}
+
+#big {
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.announcement {
+    color: white;
+}
+
+.announcement h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#yellow {
+    color: #ECB12F;
+}
+
+.all-buttons {
+    display: flex;
+}
+
+.notall-buttons {
+    display: flex;
+}
+
+#email-button {
+    color: #540B51;
+}
+
+#google-button {
+    display: flex;
+    background-color: #4285F4;
+    padding: 6px;
+}
+
+#google-button span {
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    color: white;
+}
+
+#google {
+    width: 7%;
+    background-color: white;
+    align-self: center;
+    padding: 6px;
+}
+
+.icon-place {
+    background-color: #F3EAE2;
+    padding: 8%;
+}
+
+.icon-place p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+}
+
+.imgdiv {
+    background-color: #F3EAE2;
+}
+
+.text-description {
+    background-color: #F3EAE2;
+}
+
+.text-description h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.text-description a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+.connectedness {
+    display: flex;
+}
+
+.fexibility {
+    display: flex;
+}
+
+.speed-mobile {
+    display: flex;
+}
+
+.teams-large {
+    text-align: center;
+}
+
+.teams-large ul {
+    display: flex;
+    list-style: none;
+}
+
+#meet-button {
+    background-color: #540B51;
+    color: white;
+}
+
+#sales-button {
+    border: 1px solid #540B51;
+    color: #540B51;
+    background-color: white;
+}
+
+.teams-large h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teams-large span {
+    color: #540B51;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.welcome {
+    background-color: #540B51;
+    padding-bottom: 4%;
+}
+
+.welcome h3 {
+    padding-top: 7%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    letter-spacing: 0px;
+}
+
+#for-free {
+    background-color: #540B51;
+    color: white;
+    border: 1px white solid;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer ul {
+    list-style: none;
+}
+
+.menu-footer ul li {
+    padding: 10%;
+    color: #454245;
+}
+
+footer hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    opacity: 0.2;
+    height: 1.5px;
+    background-color: #454245;
+}
+
+#last-menu {
+    list-style: none;
+    font-weight: bold;
+    padding-top: 7%;
+}
+
+#last-menu li {
+    padding: 2%;
+}
+
+#last-menu a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+#bottom-icons {
+    display: flex;
+    list-style: none;
+    padding: 4%
+}
+
+#small {
+    padding: 3%;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        padding: 5%;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+    }
+
+    #writen-menu {
+        display: none;
+    }
+
+    #slack {
+        width: 35%;
+        margin-left: 4%;
+    }
+
+    .announcement h1 {
+        font-size: 3.5em;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .announcement p {
+        text-align: center;
+    }
+
+    .all-buttons {
+        height: 180px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 3%;
+    }
+
+    .all-buttons button {
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border-radius: 6px;
+        height: 40%;
+    }
+
+    #airbnb {
+        width: 30%;
+        height: 30%;
+    }
+
+    #nasa {
+        width: 14%;
+        height: 14%;
+    }
+
+    #uber {
+        width: 20%;
+        height: 20%;
+    }
+
+    #target {
+        width: 11%;
+        height: 11%;
+    }
+
+    #nty {
+        width: 50%;
+        height: 50%;
+    }
+
+    #spotify {
+        width: 30%;
+        height: 30%;
+    }
+
+    .text-description {
+        padding: 3%;
+    }
+
+    .text-description h2 {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .text-description p {
+        margin-bottom: 3%;
+    }
+
+    .connectedness {
+        flex-wrap: wrap;
+    }
+
+    .fexibility {
+        flex-wrap: wrap-reverse;
+    }
+
+    .speed-mobile {
+        flex-wrap: wrap;
+    }
+
+    .teams-large h3 {
+        margin-top: 10%;
+        margin-bottom: 2%;
+        font-size: 2em;
+        letter-spacing: -1px;
+    }
+
+    .teams-large p {
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .teams-large ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .teams-large ul li {
+        font-weight: bold;
+        margin: 3%;
+    }
+
+    .welcome h3 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .notall-buttons {
+        height: 180px;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        padding: 3%;
+    }
+
+    .notall-buttons button {
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border-radius: 6px;
+        height: 40%;
+    }
+
+    footer img {
+        width: 10%;
+        margin: 5%;
+    }
+
+    #bottom-icons {
+        justify-content: space-between;
+    }
+}
